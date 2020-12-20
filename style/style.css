@@ -3,8 +3,8 @@
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("../Fonts/montserrat-thin-webfont.woff2") format("woff2");
+  font-family: "montserrat";
+  src: url("../fonts/montserrat-thin-webfont.woff2") format("woff2");
   src: url("../fonts/montserrat-thin-webfont.woff") format("woff");
   font-weight: 100;
   font-display: swap;
@@ -12,8 +12,8 @@
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("../Fonts/montserrat-extralight-webfont.woff2") format("woff2");
+  font-family: "montserrat";
+  src: url("../fonts/montserrat-extralight-webfont.woff2") format("woff2");
   src: url("../fonts/montserrat-extralight-webfont.woff") format("woff");
   font-weight: 200;
   font-display: swap;
@@ -21,8 +21,8 @@
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("../Fonts/montserrat-light-webfont.woff2") format("woff2");
+  font-family: "montserrat";
+  src: url("../fonts/montserrat-light-webfont.woff2") format("woff2");
   src: url("../fonts/montserrat-light-webfont.woff") format("woff");
   font-weight: 300;
   font-display: swap;
@@ -30,8 +30,8 @@
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("../Fonts/montserrat-regular-webfont.woff2") format("woff2");
+  font-family: "montserrat";
+  src: url("../fonts/montserrat-regular-webfont.woff2") format("woff2");
   src: url("../fonts/montserrat-regular-webfont.woff") format("woff");
   font-weight: 400;
   font-display: swap;
@@ -39,8 +39,8 @@
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("../Fonts/montserrat-medium-webfont.woff2") format("woff2");
+  font-family: "montserrat";
+  src: url("../fonts/montserrat-medium-webfont.woff2") format("woff2");
   src: url("../fonts/montserrat-medium-webfont.woff") format("woff");
   font-weight: 500;
   font-display: swap;
@@ -48,8 +48,8 @@
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("../Fonts/montserrat-semibold-webfont.woff2") format("woff2");
+  font-family: "montserrat";
+  src: url("../fonts/montserrat-semibold-webfont.woff2") format("woff2");
   src: url("../fonts/montserrat-semibold-webfont.woff") format("woff");
   font-weight: 600;
   font-display: swap;
@@ -57,8 +57,8 @@
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("../Fonts/montserrat-bold-webfont.woff2") format("woff2");
+  font-family: "montserrat";
+  src: url("../fonts/montserrat-bold-webfont.woff2") format("woff2");
   src: url("../fonts/montserrat-bold-webfont.woff") format("woff");
   font-weight: 700;
   font-display: swap;
@@ -66,8 +66,8 @@
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("../Fonts/montserrat-extrabold-webfont.woff2") format("woff2");
+  font-family: "montserrat";
+  src: url("../fonts/montserrat-extrabold-webfont.woff2") format("woff2");
   src: url("../fonts/montserrat-extrabold-webfont.woff") format("woff");
   font-weight: 800;
   font-display: swap;
@@ -75,7 +75,7 @@
 }
 
 html, body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "montserrat", sans-serif;
   padding: 0;
   margin: 0;
   background: #FFFFFF;
@@ -228,13 +228,13 @@ h2 {
   min-width: 26px;
   min-height: 26px;
   border: none;
-  background: url("../Img/Search.svg") no-repeat;
+  background: url("../img/Search.svg") no-repeat;
 }
 
 .header-search-btn:hover, .header-search-btn:focus {
   border: none;
   outline: none;
-  background: url("../Img/Search2.svg") no-repeat;
+  background: url("../img/Search2.svg") no-repeat;
 }
 
 .first-section {
@@ -247,17 +247,17 @@ h2 {
 }
 
 .first-container-img1 {
-  background: url("../Img/low-angle-photo-of-balconies-2462015_1.jpg") no-repeat;
+  background: url("../img/low-angle-photo-of-balconies-2462015_1.jpg") no-repeat;
   background-size: cover;
 }
 
 .first-container-img2 {
-  background: url("../Img/apartment-apartment-building-architecture-building-323705\ 1.jpg") no-repeat;
+  background: url("../img/apartment-apartment-building-architecture-building-323705\ 1.jpg") no-repeat;
   background-size: cover;
 }
 
 .first-container-img3 {
-  background: url("../Img/brown-and-blue-glass-building-2093076\ 1.jpg") no-repeat;
+  background: url("../img/brown-and-blue-glass-building-2093076\ 1.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -353,7 +353,7 @@ h2 {
   flex-direction: column;
   justify-content: flex-end;
   min-height: 622px;
-  background: url("../Img/Rectangle_2.jpg") no-repeat;
+  background: url("../img/Rectangle_2.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -398,7 +398,7 @@ h2 {
   display: flex;
   flex-direction: column;
   flex: 1;
-  background: url("../Img/package.svg") no-repeat, #FFFFFF url("../Img/Ellipse_5.svg") no-repeat;
+  background: url("../img/package.svg") no-repeat, #FFFFFF url("../img/Ellipse_5.svg") no-repeat;
   background-position: 16% 43%, 8% 50%;
   background-size: 13.5%, 13.5%;
   border: 1px solid #CACACA;
@@ -427,7 +427,7 @@ h2 {
 
 .about-us-block-right-modul2 {
   margin-top: 30px;
-  background: url("../Img/settings.svg") no-repeat, #FFFFFF url("../Img/Ellipse_5.svg") no-repeat;
+  background: url("../img/settings.svg") no-repeat, #FFFFFF url("../img/Ellipse_5.svg") no-repeat;
   background-position: 15% 30%, 8% 47%;
   background-size: 14.5%, 13.5%;
 }
@@ -473,7 +473,7 @@ h2 {
   flex-direction: column;
   margin-top: 56px;
   padding-right: 56%;
-  background: url("../Img/Rectangle_18.jpg")no-repeat;
+  background: url("../img/Rectangle_18.jpg")no-repeat;
   background-position: right;
   background-size: 49.2% 100%;
 }
@@ -818,7 +818,7 @@ h2 {
 }
 
 .footer-form-checkbox:checked+.footer-form-checkbox-text::before {
-  background: url("../Img/Rectangle_44.svg") no-repeat;
+  background: url("../img/Rectangle_44.svg") no-repeat;
   background-position: center center;
 }
 
@@ -880,7 +880,7 @@ h2 {
     padding: 0;
   }
   .first-container-img1 {
-    background: url("../Img/low-angle-photo-of-balconies1024.jpg") no-repeat;
+    background: url("../img/low-angle-photo-of-balconies1024.jpg") no-repeat;
     background-size: cover;
   }
   .first-container-block {
@@ -942,7 +942,7 @@ h2 {
   }
   .how-we-work-block {
     padding-right: 52%;
-    background: url("../Img/Rectangle_18(1024).jpg") no-repeat;
+    background: url("../img/Rectangle_18(1024).jpg") no-repeat;
     background-position: right;
   }
   .how-we-work-left-block-buttons {
@@ -1006,7 +1006,7 @@ h2 {
     padding: 0;
   }
   .first-container-img1 {
-    background: url("../Img/low-angle-photo-of-balconies768.jpg") no-repeat;
+    background: url("../img/low-angle-photo-of-balconies768.jpg") no-repeat;
     background-size: cover;
   }
   .first-container-block {
@@ -1029,7 +1029,7 @@ h2 {
   }
   .about-us-block-left {
     min-height: 650px;
-    background: url("../Img/Rectangle768.jpg") no-repeat;
+    background: url("../img/Rectangle768.jpg") no-repeat;
     background-size: cover;
   }
   .about-us-block-left-description-text {
@@ -1071,7 +1071,7 @@ h2 {
     min-height: 800px;
     margin-top: 21px;
     padding-right: 0;
-    background: url("../Img/Rectangle_18(768).jpg") no-repeat;
+    background: url("../img/Rectangle_18(768).jpg") no-repeat;
     background-position: top;
     background-size: contain;
   }
@@ -1148,7 +1148,7 @@ h2 {
   }
   .first-container-img1 {
     width: 100% !important;
-    background: url("../Img/low-angle-photo-of-balconies320.jpg") no-repeat;
+    background: url("../img/low-angle-photo-of-balconies320.jpg") no-repeat;
     background-size: cover;
   }
   .first-container-block {
@@ -1199,7 +1199,7 @@ h2 {
   }
   .about-us-block-left {
     min-height: auto;
-    background: url("../Img/Rectangle_2_320.jpg") no-repeat;
+    background: url("../img/Rectangle_2_320.jpg") no-repeat;
     background-size: contain;
   }
   .about-us-block-left-description {
@@ -1272,7 +1272,7 @@ h2 {
   .how-we-work-block {
     margin-top: 15px;
     padding-right: 0;
-    background: url("../Img/Rectangle_18(768).jpg") no-repeat;
+    background: url("../img/Rectangle_18(768).jpg") no-repeat;
     background-position: top;
   }
   .how-we-work-left-block-heading {
@@ -1418,7 +1418,7 @@ h2 {
     max-width: 320px;
   } */
   .how-we-work-block {
-    background: url("../Img/Rectangle_18_320.jpg") no-repeat;
+    background: url("../img/Rectangle_18_320.jpg") no-repeat;
     background-size: contain;
   }
   .how-we-work-left-block-heading {
